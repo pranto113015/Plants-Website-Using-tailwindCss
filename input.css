@@ -1,0 +1,20 @@
+/* add customized google font link */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom css */
+body {
+    @apply bg-green-950 text-white font-Jost tracking-wider;
+}
+
+.nav-link {
+    @apply text-lg font-bold duration-300;
+}
+
+.nav-link:hover {
+    @apply text-yellow-500;
+}

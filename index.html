@@ -82,7 +82,7 @@
 
         <div class="flex flex-col items-center gap-5 lg:flex-row">
           <!-- content -->
-          <div class="w-full space-y-5 lg:w-1/2">
+          <div class="home__data w-full space-y-5 lg:w-1/2">
             <h1>
               <span class="text-yellow-500">Plants</span> make a <br>
               positive
@@ -123,7 +123,7 @@
 
           <!-- image -->
           <div class="w-full relative lg:w-1/2">
-            <img src="./assets/img/home.png" alt="home_image">
+            <img src="./assets/img/home.png" alt="home_image" class="home__image">
             <!-- leaf -->
             <div class="absolute -top-10 right-0 opacity-30 xl:top-5 animate-movingY">
               <i class="ri-leaf-line text-6xl text-yellow-500"></i>
@@ -150,7 +150,7 @@
 
         <!-- card 1 -->
         <div
-          class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+          class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
           <div class="flex items-center gap-5">
             <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
             <p class="md:text-lg font-bold">
@@ -164,7 +164,7 @@
 
         <!-- card 2 -->
         <div
-          class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+          class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
           <div class="flex items-center gap-5">
             <i class="ri-customer-service-line text-3xl md:text-4xl xl:text-5xl"></i>
             <p class="md:text-lg font-bold">
@@ -179,7 +179,7 @@
 
         <!-- card 3 -->
         <div
-          class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+          class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
           <div class="flex items-center gap-5">
             <i class="ri-plant-line text-3xl md:text-4xl xl:text-5xl"></i>
             <p class="md:text-lg font-bold">
@@ -193,7 +193,7 @@
 
         <!-- card 4 -->
         <div
-          class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+          class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
           <div class="flex items-center gap-5">
             <i class="ri-money-dollar-circle-line text-3xl md:text-4xl xl:text-5xl"></i>
             <p class="md:text-lg font-bold">
@@ -212,10 +212,10 @@
 
     <!--~~~~~~~~~~~~~~~ About us ~~~~~~~~~~~~~~~-->
     <section id="about" class="relative overflow-hidden">
-      <div class="absolute -top-8 -right-12 opacity-50">
+      <div class="about__leaf absolute -top-8 -right-12 opacity-50">
         <img src="./assets/img/leaf-3.png" alt="leaf_image" class="w-40 md:w-52 xl:w-64">
       </div>
-      <div class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+      <div class="about__top flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
         <h2 class="title">About Us</h2>
         <p class="max-w-2xl">Follow instruction for more</p>
       </div>
@@ -224,12 +224,12 @@
         <!-- item 1 -->
         <div class="flex flex-col items-center lg:flex-row gap-5">
           <!-- image -->
-          <div class="w-full lg:w-1/2">
+          <div class="about__item__1-img w-full lg:w-1/2">
             <img src="./assets/img/plant-1.png" alt="about_image" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto">
           </div>
 
           <!-- content -->
-          <div class="w-full lg:w-1/2">
+          <div class="about__item__1-content w-full lg:w-1/2">
             <div class="space-y-5">
               <h3>Make your <span class="text-yellow-500">organic</span> <br>
                 garden</h3>
@@ -246,12 +246,12 @@
         <!-- item 2 -->
         <div class="flex flex-col items-center lg:flex-row-reverse gap-5">
           <!-- image -->
-          <div class="w-full lg:w-1/2">
+          <div class="about__item__2-img w-full lg:w-1/2">
             <img src="./assets/img/plant-2.png" alt="about_image" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto">
           </div>
 
           <!-- content -->
-          <div class="w-full lg:w-1/2">
+          <div class="about__item__2-content w-full lg:w-1/2">
             <div class="space-y-5">
               <h3>Come with us <br>
                 <span class="text-yellow-500">grow up</span>
@@ -273,7 +273,7 @@
 
     <!--~~~~~~~~~~~~~~~ Popular ~~~~~~~~~~~~~~~-->
     <section id="popular" class="bg-green-900">
-      <div class="flex flex-col items-center gap-3 text-center mb-40">
+      <div class="popular__top flex flex-col items-center gap-3 text-center mb-40">
         <h2 class="title">Your Choice Plant</h2>
         <p class="max-w-2xl">Follow instruction for more</p>
       </div>
@@ -379,15 +379,15 @@
 
     <!--~~~~~~~~~~~~~~~ Review ~~~~~~~~~~~~~~~-->
     <section id="review" class="relative mb-20 md:mb-28 overflow-hidden">
-      <div class="absolute -top-8 -left-12 opacity-50">
+      <div class="review__leaf absolute -top-8 -left-12 opacity-50">
         <img src="./assets/img/leaf-4.png" alt="leaf-4" class="w-40 md:w-52 xl:w-64">
       </div>
-      <div class="flex flex-col items-center gap-8 text-center mb-10 md:mb-20">
+      <div class="review__top flex flex-col items-center gap-8 text-center mb-10 md:mb-20">
         <h2 class="title">Customer Review</h2>
         <p class="max-w-2xl">Follow instruction for more</p>
       </div>
 
-      <div class="container ">
+      <div class="review__swiper container ">
         <div class="swiper py-12">
           <ul class="swiper-wrapper">
 
@@ -443,10 +443,8 @@
                   <i class="ri-double-quotes-r text-4xl ml-auto"></i>
 
                 </div>
-
               </div>
             </li>
-
 
             <li class="swiper-slide">
               <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
@@ -460,9 +458,7 @@
                     <p>Designer</p>
                   </div>
                   <i class="ri-double-quotes-r text-4xl ml-auto"></i>
-
                 </div>
-
               </div>
             </li>
 
@@ -495,7 +491,7 @@
       </div>
     </div>
     <!-- social icon -->
-    <div class="container mt-16 mb-10">
+    <div class="footer__icon container mt-16 mb-10">
       <div class="border-b border-green-500 relative">
         <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto">
           <div class="bg-yellow-100 text-lg text-center space-x-2">
@@ -510,7 +506,7 @@
 
     <!-- content -->
     <div
-      class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start">
+      class="footer__content container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start">
       <!-- item 1 -->
       <div>
         <div class="text-7xl text-green-700 text-center inline-block">
@@ -558,15 +554,14 @@
         </div>
       </div>
 
-
     </div>
     <!-- copyright -->
-    <div class="container">
+    <div class="copy__right container">
       <p class="text-center mt-10 opacity-50">Copyright &copy; 2024 Pranto Kumar. All rights reserved.</p>
     </div>
 
     <!-- floral image -->
-    <div class="absolute bottom-0 left-0 opacity-20 pointer-events-none">
+    <div class="footer__floral absolute bottom-0 left-0 opacity-20 pointer-events-none">
       <img src="./assets/img/floral-1.png" alt="floral_image" class="w-full lg:w-1/2">
     </div>
   </footer>
@@ -581,12 +576,16 @@
 
 
 
+
   <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   <!--~~~~~~~~~~ SCROLLREVEAL ~~~~~~~~~~-->
+  <script src="./assets/js/scrollreveal.min.js"></script>
 
   <!--~~~~~~~~~~ mainjs ~~~~~~~~~~-->
   <script src="./main.js"></script>
+
 </body>
 
 </html>

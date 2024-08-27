@@ -77,6 +77,7 @@ const swiper = new Swiper('.swiper', {
 
 });
 
+
 /*~~~~~~~~~~~~~~~ SCROLL SECTIONS ACTIVE LINK ~~~~~~~~~~~~~~~*/
 const activeLink = () => {
     const sections = document.querySelectorAll('section')
@@ -107,3 +108,19 @@ window.addEventListener("scroll", activeLink)
 
 
 /*~~~~~~~~~~~~~~~ SCROLL REVEAL ANIMATION ~~~~~~~~~~~~~~~*/
+const sr = ScrollReveal({
+    origin: "top",
+    distance: "60px",
+    duration: 2500,
+    delay: 300,
+    reset: true
+})
+
+sr.reveal(`.home__data, .about__top, .popular__top, .review__top, .review__swiper, .footer__icon, .footer__content, .copy__right`)
+sr.reveal(`.home__image`, { delay: 500, scale: 0.5 })
+sr.reveal(`.service__card, .popular_card`, { interval: 100 })
+sr.reveal(`.about__leaf`, { delay: 1000, origin: "right" })
+sr.reveal(`.about__item__1-content, .about__item__2-img`, { origin: "right" })
+sr.reveal(`.about__item__2-content, .about__item__1-img`, { origin: "left" })
+sr.reveal(`.review__leaf, .footer__floral`, { delay: 1000, origin: "left" })
+

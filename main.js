@@ -39,7 +39,6 @@ const scrollHeader = () => {
         header.classList.add("border-b", "border-yellow-500")
 
     } else {
-        header.classList.add("-bottom-1/2")
         header.classList.remove("border-b", "border-yellow-500")
     }
 }
@@ -79,6 +78,32 @@ const swiper = new Swiper('.swiper', {
 });
 
 /*~~~~~~~~~~~~~~~ SCROLL SECTIONS ACTIVE LINK ~~~~~~~~~~~~~~~*/
+const activeLink = () => {
+    const sections = document.querySelectorAll('section')
+    const navLinks = document.querySelectorAll(".nav-link")
+
+    let current = "home"
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+
+        if (this.scrollY >= sectionTop - 60) {
+            current = section.getAttribute("id")
+        }
+    })
+
+    navLinks.forEach(item => {
+        item.classList.remove("active")
+
+        if (item.href.includes(current)) {
+            item.classList.add("active")
+        }
+    })
+
+}
+window.addEventListener("scroll", activeLink)
+
+
 
 
 /*~~~~~~~~~~~~~~~ SCROLL REVEAL ANIMATION ~~~~~~~~~~~~~~~*/

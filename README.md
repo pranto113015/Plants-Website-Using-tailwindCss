@@ -4,7 +4,7 @@ A plant website could feature detailed information on various plant species, inc
 
 # Demo Preview
 
-**You can see the live demo project please [Click Here](#)**
+**You can see the live demo project please [Click Here](https://pkdemoproject3.netlify.app/)**
 
 ![previow](./assets/img/preview1.png)
 ![previow](./assets/img/preview2.png)
@@ -20,9 +20,23 @@ A plant website could feature detailed information on various plant species, inc
 
 # Technologies Used
 
-- **HTML**
-- **TailwindCSS v3.4.10**
-- **Javascript**
-- **Scrollreveal Animation**
-- **Remix Icon**
-- **Swiper CSS v11.1.10**
+#### Frontend
+
+- **HTML5/TailwindCSS v3.4.10 :** Structure and styling of the website.
+- **JavaScript :** Interactive features and dynamic content.
+- **Responsive Design :** Customizing Screens, Flexbox, and Grid for mobile-friendly design
+- **ScrollReveal :** This is a JavaScript library that allows you to easily create and manage scroll-based animations on a website.
+- **Remix Icon :** This is a set of open-source, high-quality icons designed for web development.
+- **Swiper CSS v11.1.10 :** Swiper is a modern, flexible, and highly customizable touch slider that you can use for implementing sliders, carousels, and other interactive content on your website.
+
+#### Backend
+
+- **Node.js :** JavaScript runtime for server-side development.
+
+#### Version Control
+
+- **Git :** Distributed version control system.
+
+#### Hosting and Deployment
+
+- **Netlify/Vercel :** Hosting platforms for static websites and JAMstack applications.

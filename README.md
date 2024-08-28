@@ -64,17 +64,30 @@ If you run this project locally, then follow these steps below :
 
 2.  **Navigate into the project directory :**
 
-        ```sh
-        cd Plants-Website-Using-tailwindCss
+    - Replace `Plants-Website-Using-tailwindCss` with the actual folder name of the project.
 
-        ```
+      ```sh
+      cd Plants-Website-Using-tailwindCss
+      ```
 
-3.  Open the project by vs code applicaton
-4.  Click the run option of the menu bar and again click the start debugging or open with live server
+3.  **Run Tailwind CSS in Watch Mode :**
+
+    - To start watching for changes, run:
+
+      ```sh
+      npm run watch
+      ```
+
+4.  **Click the run option of the menu bar and again click the start debugging or open with live server**
 
 Or you can do this way
 
 1. Download the project
-2. unzip file
-3. open with your IDE such as vs code
-4. open with live server
+2. Unzip the file
+3. Open with your IDE such as vs code and follow the command :
+
+   ```sh
+   npm run watch
+   ```
+
+4. Now open with live server
